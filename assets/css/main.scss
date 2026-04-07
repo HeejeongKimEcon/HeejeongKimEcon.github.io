@@ -41,3 +41,130 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ==========================================================================
+   CUSTOM: Navy & Gold Refined Styling
+   ========================================================================== */
+
+/* Subtle gold accent line under the masthead */
+.masthead::after {
+  height: 2px !important;
+  background: linear-gradient(to right, #1B2A4A, #C4A35A, #1B2A4A) !important;
+}
+
+/* Selected nav item gets gold underline instead of default */
+.masthead__menu-item.selected a {
+  border-bottom: 2px solid #C4A35A !important;
+}
+
+/* Page headings: navy with thin gold bottom border */
+.page__title,
+.archive__item-title {
+  color: #1B2A4A;
+}
+
+h2 {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #e8e0d0;
+}
+
+/* Sidebar author name in navy */
+.author__name {
+  color: #1B2A4A;
+  font-weight: 700;
+}
+
+/* Sidebar bio text */
+.author__bio {
+  color: #4a4a4a;
+  font-style: italic;
+}
+
+/* Profile image: subtle gold-tinted border */
+.author__avatar img {
+  border: 2px solid #C4A35A !important;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(27, 42, 74, 0.1);
+}
+
+/* Links: navy base, gold on hover */
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #C4A35A !important;
+}
+
+/* Publication/archive items: clean card-like separation */
+.archive__item {
+  padding: 1em 0;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s ease;
+}
+
+.archive__item:last-child {
+  border-bottom: none;
+}
+
+.archive__item:hover {
+  background-color: #faf8f4;
+}
+
+/* Archive item title links */
+.archive__item-title a {
+  color: #1B2A4A;
+  text-decoration: none;
+}
+
+.archive__item-title a:hover {
+  color: #C4A35A !important;
+}
+
+/* Footer: subtle navy tint */
+.page__footer {
+  border-top: 2px solid #1B2A4A;
+}
+
+/* Subtle accent for strong/bold text */
+strong, b {
+  color: #1B2A4A;
+}
+
+/* Dark mode overrides */
+html[data-theme="dark"] {
+  .masthead::after {
+    background: linear-gradient(to right, #1a1a2e, #C4A35A, #1a1a2e) !important;
+  }
+
+  .page__title,
+  .archive__item-title,
+  .author__name {
+    color: #e8e8e8;
+  }
+
+  .archive__item-title a {
+    color: #e8e8e8;
+  }
+
+  .archive__item:hover {
+    background-color: #222244;
+  }
+
+  h2 {
+    border-bottom-color: #333355;
+  }
+
+  strong, b {
+    color: #C4A35A;
+  }
+
+  .page__footer {
+    border-top-color: #C4A35A;
+  }
+
+  .author__avatar img {
+    border-color: #C4A35A !important;
+    box-shadow: 0 2px 8px rgba(196, 163, 90, 0.15);
+  }
+}
