@@ -7,18 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Working Papers</h2><hr />
+<h2>Working Papers</h2>
 
 {% for post in site.publications reversed %}
   {% if post.category == "working" %}
-    {% include archive-single.html %}
+    {% include pub-entry.html %}
   {% endif %}
 {% endfor %}
 
-<h2>Work in Progress</h2><hr />
+<h2>Work in Progress</h2>
 
 {% for post in site.publications reversed %}
   {% if post.category == "progress" %}
-    {% include archive-single.html %}
+    {% include pub-entry.html %}
   {% endif %}
 {% endfor %}

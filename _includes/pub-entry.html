@@ -1,0 +1,22 @@
+{% if post.id %}
+  {% assign ptitle = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign ptitle = post.title %}
+{% endif %}
+
+<div class="pub-entry">
+  <div class="pub-title">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" target="_blank">{{ ptitle }}</a>
+    {% else %}
+      {{ ptitle }}
+    {% endif %}
+  </div>
+  <div class="pub-details">
+    {% if post.category == "manuscripts" %}
+      <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}{% if post.coauthors %} &middot; with {{ post.coauthors }}{% endif %}{% if post.appendixurl %} &middot; <a href="{{ post.appendixurl }}" target="_blank">[Appendix]</a>{% endif %}
+    {% else %}
+      {% if post.coauthors %}with {{ post.coauthors }}{% endif %}
+    {% endif %}
+  </div>
+</div>

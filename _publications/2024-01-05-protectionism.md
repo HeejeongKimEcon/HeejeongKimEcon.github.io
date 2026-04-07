@@ -6,6 +6,7 @@ permalink: /publication/2024-protectionism
 excerpt: "Work in progress (with Christian Bustamante)."
 date: 2024-01-03
 venue: "Work in Progress"
+coauthors: "Christian Bustamante"
 ---
 
 (with Christian Bustamante)

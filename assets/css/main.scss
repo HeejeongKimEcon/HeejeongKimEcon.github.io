@@ -96,28 +96,42 @@ a:hover {
   color: #C4A35A !important;
 }
 
-/* Publication/archive items: clean card-like separation */
-.archive__item {
-  padding: 1em 0;
+/* Compact publication entries */
+.pub-entry {
+  padding: 0.45em 0;
   border-bottom: 1px solid #eee;
-  transition: background-color 0.2s ease;
+  line-height: 1.4;
 }
 
-.archive__item:last-child {
+.pub-entry:last-child {
   border-bottom: none;
 }
 
-.archive__item:hover {
-  background-color: #faf8f4;
+.pub-title {
+  font-size: 0.95em;
+  font-weight: 500;
+  margin-bottom: 0.1em;
 }
 
-/* Archive item title links */
-.archive__item-title a {
+.pub-title a {
   color: #1B2A4A;
   text-decoration: none;
 }
 
-.archive__item-title a:hover {
+.pub-title a:hover {
+  color: #C4A35A !important;
+}
+
+.pub-details {
+  font-size: 0.83em;
+  color: #555;
+}
+
+.pub-details a {
+  color: #2a5298;
+}
+
+.pub-details a:hover {
   color: #C4A35A !important;
 }
 
@@ -138,17 +152,20 @@ html[data-theme="dark"] {
   }
 
   .page__title,
-  .archive__item-title,
   .author__name {
     color: #e8e8e8;
   }
 
-  .archive__item-title a {
-    color: #e8e8e8;
+  .pub-entry {
+    border-bottom-color: #333355;
   }
 
-  .archive__item:hover {
-    background-color: #222244;
+  .pub-title a {
+    color: #c8d8ee;
+  }
+
+  .pub-details {
+    color: #aaa;
   }
 
   h2 {
