@@ -15,5 +15,3 @@ I am a [CIRANO](https://www.cirano.qc.ca/) Researcher and a [CIREQ](https://www.
 - **[2026]** "Sources of Rising Student Debt in the US" (with Jung Hwan Kim) forthcoming in *Review of Economic Dynamics*
 - **[2025]** New working paper: "Monetary Policy, Wealth Inequality, and Lifecycle Dynamics" (with C. Bustamante and E. Ma)
 - **[2025]** New working paper: "Stimulus Effects of Student Debt Relief Program" (with M. Irwin)
-
-<p style="margin-top: 2em; font-size: 0.8em; color: #888;"><em>Last updated: {{ site.time | date: "%B %Y" }}</em></p>
