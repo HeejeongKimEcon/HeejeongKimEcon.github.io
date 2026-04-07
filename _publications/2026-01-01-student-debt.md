@@ -9,6 +9,7 @@ venue: "Review of Economic Dynamics"
 paperurl: "https://drive.google.com/file/d/1VUU0lDnRQbkxlalr8wXEG5hN73sD3awT/view?usp=share_link"
 citation: "Kim, Heejeong and Jung Hwan Kim (2026). &quot;Sources of Rising Student Debt in the US: College Costs, Wage Inequality, and Delinquency.&quot; <i>Review of Economic Dynamics</i>."
 coauthors: "Jung Hwan Kim"
+replicationurl: "https://ideas.repec.org/c/red/ccodes/23-78.html"
 ---
 
 (with Jung Hwan Kim)

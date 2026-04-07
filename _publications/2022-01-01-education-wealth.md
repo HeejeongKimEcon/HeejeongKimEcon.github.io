@@ -7,6 +7,7 @@ excerpt: "This paper analyzes how education heterogeneity contributes to wealth 
 date: 2022-01-01
 venue: "Review of Economic Dynamics"
 paperurl: "https://drive.google.com/file/d/1DCkIB7mjugbAmiiQ8A0nUwmRqLtEHBr7/view?usp=sharing"
+replicationurl: "https://ideas.repec.org/c/red/ccodes/19-92.html"
 citation: "Kim, Heejeong (2022). &quot;Education, Wage Dynamics, and Wealth Inequality.&quot; <i>Review of Economic Dynamics</i>."
 ---
 

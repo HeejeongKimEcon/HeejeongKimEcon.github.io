@@ -13,6 +13,7 @@
   <div class="pub-links">
     {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">[Paper]</a>{% endif %}
     {% if post.appendixurl %}<a href="{{ post.appendixurl }}" target="_blank">[Appendix]</a>{% endif %}
+    {% if post.replicationurl %}<a href="{{ post.replicationurl }}" target="_blank">[Replication]</a>{% endif %}
     {% if post.category == "working" and post.paperurl == nil %}<span class="pub-draft">Draft available upon request</span>{% endif %}
   </div>
 </div>
