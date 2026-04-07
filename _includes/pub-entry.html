@@ -6,17 +6,14 @@
 
 <div class="pub-entry">
   <div class="pub-title">
-    {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank">{{ ptitle }}</a>
-    {% else %}
-      {{ ptitle }}
-    {% endif %}
+    {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">"{{ ptitle }}"</a>{% else %}"{{ ptitle }}"{% endif %}
   </div>
-  <div class="pub-details">
-    {% if post.category == "manuscripts" %}
-      <em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}{% if post.coauthors %} &middot; with {{ post.coauthors }}{% endif %}{% if post.appendixurl %} &middot; <a href="{{ post.appendixurl }}" target="_blank">[Appendix]</a>{% endif %}
-    {% else %}
-      {% if post.coauthors %}with {{ post.coauthors }}{% endif %}
-    {% endif %}
+  {% if post.coauthors %}<div class="pub-authors">(with {{ post.coauthors }})</div>{% endif %}
+  {% if post.category == "manuscripts" %}<div class="pub-venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</div>{% endif %}
+  {% if post.paperurl or post.appendixurl %}
+  <div class="pub-links">
+    {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">[Paper]</a>{% endif %}
+    {% if post.appendixurl %}<a href="{{ post.appendixurl }}" target="_blank">[Appendix]</a>{% endif %}
   </div>
+  {% endif %}
 </div>
