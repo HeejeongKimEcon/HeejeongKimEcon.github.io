@@ -10,10 +10,9 @@
   </div>
   {% if post.coauthors %}<div class="pub-authors">(with {{ post.coauthors }})</div>{% endif %}
   {% if post.category == "manuscripts" %}<div class="pub-venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</div>{% endif %}
-  {% if post.paperurl or post.appendixurl %}
   <div class="pub-links">
     {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">[Paper]</a>{% endif %}
     {% if post.appendixurl %}<a href="{{ post.appendixurl }}" target="_blank">[Appendix]</a>{% endif %}
+    {% if post.category == "working" and post.paperurl == nil %}<span class="pub-draft">Draft available upon request</span>{% endif %}
   </div>
-  {% endif %}
 </div>
