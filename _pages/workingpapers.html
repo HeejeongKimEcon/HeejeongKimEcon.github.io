@@ -22,3 +22,11 @@ author_profile: true
     {% include pub-entry.html %}
   {% endif %}
 {% endfor %}
+
+<h2>Dormant Projects</h2>
+
+{% for post in site.publications reversed %}
+  {% if post.category == "dormant" %}
+    {% include pub-entry.html %}
+  {% endif %}
+{% endfor %}
