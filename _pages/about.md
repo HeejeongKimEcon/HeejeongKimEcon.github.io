@@ -12,6 +12,8 @@ I am an Associate Professor of Economics at [Concordia University](https://www.c
 
 I am a [CIRANO](https://www.cirano.qc.ca/) Researcher and a [CIREQ](https://www.cireqmontreal.com/) Research Fellow.
 
+**Email:** heejeong.kim [at] concordia.ca
+
 ## Recent Updates
 
 - **[2026]** "Sources of Rising Student Debt in the US" (with Jung Hwan Kim) forthcoming in *Review of Economic Dynamics*
