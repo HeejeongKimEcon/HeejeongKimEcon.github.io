@@ -183,6 +183,16 @@ a:hover {
   margin-bottom: 0.3em !important;
 }
 
+/* Remove top space when page has no title */
+.page__title:empty,
+h1.page__title:empty {
+  display: none;
+}
+
+.page__content h2:first-child {
+  margin-top: 0 !important;
+}
+
 .pub-details a:hover {
   color: #C4A35A !important;
 }
