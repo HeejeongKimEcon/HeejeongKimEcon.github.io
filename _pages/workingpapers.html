@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Working Papers</h2>
-
 {% for post in site.publications reversed %}
   {% if post.category == "working" %}
     {% include pub-entry.html %}
