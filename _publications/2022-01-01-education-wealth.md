@@ -6,7 +6,8 @@ permalink: /publication/2022-education-wealth
 excerpt: "This paper analyzes how education heterogeneity contributes to wealth inequality, finding that stochastic within-group wage dispersion plays a key role."
 date: 2022-01-01
 venue: "Review of Economic Dynamics"
-paperurl: "https://drive.google.com/file/d/1DCkIB7mjugbAmiiQ8A0nUwmRqLtEHBr7/view?usp=sharing"
+paperurl: "https://www.sciencedirect.com/science/article/abs/pii/S1094202521000107"
+workingpaperurl: "https://drive.google.com/file/d/1DCkIB7mjugbAmiiQ8A0nUwmRqLtEHBr7/view?usp=sharing"
 replicationurl: "https://ideas.repec.org/c/red/ccodes/19-92.html"
 citation: "Kim, Heejeong (2022). &quot;Education, Wage Dynamics, and Wealth Inequality.&quot; <i>Review of Economic Dynamics</i>."
 ---
