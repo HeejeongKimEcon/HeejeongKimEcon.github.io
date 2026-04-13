@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-You can download my full CV [here](https://drive.google.com/file/d/1jQ8C-qOAuL-xGOi3dnjx8x3bBEcoT7GS/view?usp=drive_link){:target="_blank"}.
+You can download my full CV [here](https://drive.google.com/file/d/1bPNfTRXW_tgIRJgGVvpOGfru9iTjGqYQ/view?usp=sharing){:target="_blank"}.
 
 ## Education
 
