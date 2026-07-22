@@ -22,6 +22,10 @@ You can download my full CV [here](https://drive.google.com/file/d/1bPNfTRXW_tgI
 
 * **Journal of Economic Theory and Econometrics** (March 2024 -- present)
 
+## Refereeing
+
+American Economic Journal: Macroeconomics, The Economic Journal, Journal of Economic Growth, Journal of Economic Dynamics and Control, Journal of Money, Credit, and Banking, National Science Foundation, The Scandinavian Journal of Economics, Quantitative Finance, Economic Modelling, The Annals of Regional Science, International Economic Journal
+
 ## Service
 
 * Junior VMACS Conference Organizer (August 2020)
