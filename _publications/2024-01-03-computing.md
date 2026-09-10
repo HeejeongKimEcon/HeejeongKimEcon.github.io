@@ -4,7 +4,7 @@ collection: publications
 category: working
 permalink: /publication/2024-computing
 excerpt: "Working paper (with Christian Bustamante)."
-date: 2024-01-05
+date: 2024-01-06
 venue: "Working Paper"
 coauthors: "Christian Bustamante"
 ---

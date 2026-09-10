@@ -1,5 +1,5 @@
 ---
-title: "Monetary Policy, Wealth Inequality, and Lifecycle Dynamics"
+title: "Aging, Monetary Policy and Wealth Inequality"
 collection: publications
 category: working
 permalink: /publication/2024-monetary-policy
