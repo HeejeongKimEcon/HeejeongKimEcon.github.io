@@ -12,5 +12,6 @@ I am a [CIRANO](https://www.cirano.qc.ca/) Researcher and a [CIREQ](https://www.
 
 ## Recent Updates
 
+- **[2026]** New working paper: ["The Consumption Stimulus Effects of Student Debt Forgiveness Policies"](/files/Irwin_Kim_Student_Debt_Forgiveness.pdf) (with Michael Irwin)
 - **[2026]** "Sources of Rising Student Debt in the US" (with Jung Hwan Kim) published in *Review of Economic Dynamics*
 - **[2026]** Awarded SSHRC Insight Grant ($59,142)
